@@ -1,0 +1,40 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #485563 0%, #29323c 100%);
+    padding: 1rem;
+    color: white;
+  }
+  
+  
+  .logo {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  .navlist {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  .navitem {
+    margin-left: 1rem;
+  }
+  
+  .navitem a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .navitem a:hover {
+    color: lightgray;
+  }
+  
